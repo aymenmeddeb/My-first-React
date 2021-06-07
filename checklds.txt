@@ -1,0 +1,12 @@
+the sum of all distinct elements
+var i:=0
+j:=0
+s=0
+tb[i]:tableau1
+tb[j]:tableau2
+for i=0,i<length-1,i++ et for j=0,i<length-1,j++
+if tb[i]!=tb[j] alors 
+s=tb[i]+tb[j]
+2eme solution 
+if tb[i]-tb[j]!=0 alors
+s=s=tb[i]+tb[j]
